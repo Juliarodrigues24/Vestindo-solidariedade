@@ -1,0 +1,141 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+
+.navegaçao{
+    display: flex;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    padding: 0.5%;
+}
+
+
+
+a:hover{
+    color:beige;
+}
+
+
+h1{
+    font-size: 2cm;
+    padding-inline-end: 20%;
+}
+
+
+h2{
+    font-size: 1cm;
+}
+
+
+.text1{
+    padding-inline-end: 55%;
+}
+
+
+.text2{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text3{
+    display: block;
+    width: 200px;
+    padding-left: 10%;
+}
+
+
+section{
+    color: white;
+    background-color: #264653;
+    padding-top:20px;
+}
+
+/*pode retirar*/
+teste{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+main{
+    color: #264653;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+
+footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #264653;
+    color: white;
+    padding-top: 5%;
+}
+
+
+.div1{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.div2{
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div3{
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div4{
+    display:block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div5{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+hr{
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #2A9D8F;
+}
+
+
+.fim{
+    display: flex;
+    justify-content: space-between;
+}
